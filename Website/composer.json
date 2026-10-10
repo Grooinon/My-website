@@ -1,0 +1,22 @@
+{
+    "name": "temanbelajar/platform-tutor-sebaya",
+    "description": "TemanBelajar - Platform Tutor Sebaya Mahasiswa berbasis PHP Native MVC",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TemanBelajar Dev Team"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Helpers/functions.php"
+        ]
+    }
+}
